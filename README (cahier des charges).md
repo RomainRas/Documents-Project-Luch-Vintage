@@ -86,120 +86,117 @@ Configuration de l'environnement de développement
 - Sprint 1 : Initialisation du projet
     - Créer un repository Git/GitHub pour le projet
     - Initialiser le projet Symfony
-    Configurer l'environnement de développement local (installation des dépendances, serveurs, etc.)
-    Définir les objectifs du projet et les fonctionnalités de base (backlog)
-    Mettre en place Trello avec la structure des sprints
+    - Configurer l'environnement de développement local (installation des dépendances, serveurs, etc.)
+    - Définir les objectifs du projet et les fonctionnalités de base (backlog)
+    - Mettre en place Trello avec la structure des sprints
 
 - Sprint 2 : Gestion des utilisateurs et sécurité
-    Installer et configurer Symfony Security
-    Créer l'entité User avec les champs nécessaires (nom, prénom, email, etc.)
-    Configurer le système d’inscription et de connexion
-    Mettre en place la gestion des rôles (client, admin)
-    Tester les fonctionnalités d’authentification
+    - Installer et configurer Symfony Security
+    - Créer l'entité User avec les champs nécessaires (nom, prénom, email, etc.)
+    - Configurer le système d’inscription et de connexion
+    - Mettre en place la gestion des rôles (client, admin)
+    - Tester les fonctionnalités d’authentification
 
 - Sprint 3 : Gestion des produits
-    Créer les entités Produits et Catégories
-    Créer un CRUD pour la gestion des produits
-    Créer un CRUD pour la gestion des catégories
-    Ajouter la fonctionnalité d’association des images aux produits
-    Implémenter les relations entre produits et catégories
+    - Créer les entités Produits et Catégories
+    - Créer un CRUD pour la gestion des produits
+    - Créer un CRUD pour la gestion des catégories
+    - Ajouter la fonctionnalité d’association des images aux produits
+    - Implémenter les relations entre produits et catégories
 
 - Sprint 4 : Gestion du panier et des commandes
-    Créer les entités Panier et Commande
-    Implémenter la logique du panier d’achat
-    Implémenter la gestion des commandes
-    Ajouter la validation des commandes
+    - Créer les entités Panier et Commande
+    - Implémenter la logique du panier d’achat
+    - Implémenter la gestion des commandes
+    - Ajouter la validation des commandes
 
 - Sprint 5 : Gestion des paiements et promotions
-    Créer l’entité Paiement et configurer le paiement en ligne
-    Implémenter la gestion des promotions (ajouter, appliquer, calculer)
-    Créer les relations entre Paiement et Commande
-    Tester la fonctionnalité de paiement
+    - Créer l’entité Paiement et configurer le paiement en ligne
+    - Implémenter la gestion des promotions (ajouter, appliquer, calculer)
+    - Créer les relations entre Paiement et Commande
+    - Tester la fonctionnalité de paiement
 
 - Sprint 6 : Livraison et gestion des retours
-    Créer les entités Livraison et Service de livraison
-    Mettre en place le suivi des livraisons
-    Ajouter la gestion des retours de produits (entité RetourProduit)
-    Tester le processus de retour et de remboursement
+    - Créer les entités Livraison et Service de livraison
+    - Mettre en place le suivi des livraisons
+    - Ajouter la gestion des retours de produits (entité RetourProduit)
+    - Tester le processus de retour et de remboursement
 
 - Sprint 7 : Gestion des avis et notifications
-    Créer l’entité AvisCommande
-    Mettre en place le système de gestion des avis sur les commandes
-    Créer les notifications par email pour les utilisateurs (inscription, commande, livraison)
-    Tester l’envoi d'emails avec Mailtrap
+    - Créer l’entité AvisCommande
+    - Mettre en place le système de gestion des avis sur les commandes
+    - Créer les notifications par email pour les utilisateurs (inscription, commande, livraison)
+    - Tester l’envoi d'emails avec Mailtrap
 
 - Sprint 8 : Interface utilisateur et design
-    Créer la page d’accueil
-    Implémenter le front-end du site (Bootstrap, responsive design)
-    Optimiser l’expérience utilisateur (UX/UI)
-    Tester la navigation et la performance du site
+    - Créer la page d’accueil
+    - Implémenter le front-end du site (Bootstrap, responsive design)
+    - Optimiser l’expérience utilisateur (UX/UI)
+    - Tester la navigation et la performance du site
 
 - Sprint 9 : Tests et déploiement
-    Corriger les bugs et ajustements
-    Préparer le déploiement (serveur, base de données, SSL, etc.)
-    Déployer le projet sur un environnement de production
-    Tester l’environnement de production
+    - Corriger les bugs et ajustements
+    - Préparer le déploiement (serveur, base de données, SSL, etc.)
+    - Déployer le projet sur un environnement de production
+    - Tester l’environnement de production
 
 - Sprint 10 : Suivi post-lancement et améliorations
-    Surveiller les performances du site
-    Collecter les retours des utilisateurs
-    Prioriser les améliorations et nouvelles fonctionnalités à implémenter
-    Planifier les prochaines itérations
-
+    - Surveiller les performances du site
+    - Collecter les retours des utilisateurs
+    - Prioriser les améliorations et nouvelles fonctionnalités à implémenter
+    - Planifier les prochaines itérations
 
 ## Tests et Qualité
-Tests unitaires et d'intégration
 - Test Visuelle Front end
 
-Tests fonctionnels (vérification de chaque fonctionnalité)
-- Test : Test BackEnd
-- Solution de Paiement
-- Gestion de commande
-- Fonctionnalitées specifique
+- Tests fonctionnels (vérification de chaque fonctionnalité)
+  - Test : Test BackEnd
+  - Solution de Paiement
+  - Gestion de commande
+  - Fonctionnalitées specifique
 
-Tests de performance
-- temps de chargement
-- Reactivité
+- Tests de performance
+  - temps de chargement
+  - Reactivité
 
-Tests de sécurité
-- Vérification des failles potentielles
+- Tests de sécurité
+  - Vérification des failles potentielles
 
-Corrections des bugs et optimisation
-- Bugs
-- Opti
-
+- Corrections des bugs et optimisation
+  - Bugs
+  - Opti
 
 # Étape de Pré-Lancement
 ## Migration et Préparation
-Migration des données (importation des produits, clients, etc.)
-- Migration des données sur serveur opérationel
+- Migration des données (importation des produits, clients, etc.)
+  - Migration des données sur serveur opérationel
 
-Configuration des noms de domaine et des certificats
-- Nom de domaine et certificats
+- Configuration des noms de domaine et des certificats
+  - Nom de domaine et certificats
 
-Optimisation SEO
-- Opti du SEO (référencement naturel)
+- Optimisation SEO
+  - Opti du SEO (référencement naturel)
 
-Configuration de la logistique 
-- Configuration de la logistique : Livraison, FDP
+- Configuration de la logistique 
+  - Configuration de la logistique : Livraison, FDP
 
-Mise en place des outils d’analyse et de suivi
-- Mise en place des outils d'analyse ( google analitics ou autres ?)
-- 
-Formation des utilisateurs et des administrateurs
-- Formation du/des administrateurs
+- Mise en place des outils d’analyse et de suivi
+  - Mise en place des outils d'analyse ( google analitics ou autres ?)
+  
+- Formation des utilisateurs et des administrateurs
+  - Formation du/des administrateurs
 
 ## Lancement
-Planification et exécution du plan de lancement
-- Dates
-- Communication
-- Gestions
+- Planification et exécution du plan de lancement
+  - Dates
+  - Communication
+  - Gestions
 
-Vérification finale avant mise en ligne
-- Verification finale (checklist)
+- Vérification finale avant mise en ligne
+  - Verification finale (checklist)
 
-Mise en ligne du site
-- Mise en ligne
+- Mise en ligne du site
+  - Mise en ligne
 
-Surveillance
--  Surveillance en temps réel des performances du site post-lancement
+- Surveillance
+  - Surveillance en temps réel des performances du site post-lancement
