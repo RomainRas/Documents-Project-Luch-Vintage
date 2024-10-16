@@ -84,8 +84,8 @@ Configuration de l'environnement de développement
 - Back : Symfony
 
 - Sprint 1 : Initialisation du projet
-    Créer un repository Git/GitHub pour le projet
-    Initialiser le projet Symfony
+    - Créer un repository Git/GitHub pour le projet
+    - Initialiser le projet Symfony
     Configurer l'environnement de développement local (installation des dépendances, serveurs, etc.)
     Définir les objectifs du projet et les fonctionnalités de base (backlog)
     Mettre en place Trello avec la structure des sprints
