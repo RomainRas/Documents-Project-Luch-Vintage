@@ -9,7 +9,7 @@
   - [Migration et Préparation](#migration-et-préparation)
   - [Lancement](#lancement)
 
-!! https://trello.com/invite/b/66c5db3b6a5dcf6ad79a705c/ATTIed523351ce15a3f51f5c3d33360226aaBC14E173/projet !!
+!! https://trello.com/b/54Xgtebj/luchvintage !!
 
 # Étape de Pré-Production
 ## Analyse des Besoins
